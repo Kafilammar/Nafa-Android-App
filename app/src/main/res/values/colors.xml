@@ -1,0 +1,21 @@
+<resources>
+    <color name="nafa_green">#00852B</color>
+    <color name="nafa_green_dark">#006F24</color>
+    <color name="nafa_green_light">#DDF8E6</color>
+    <color name="nafa_lime">#8DF39A</color>
+    <color name="nafa_bg">#FFFFFF</color>
+    <color name="nafa_surface">#F8F9F9</color>
+    <color name="nafa_field">#E8EBEB</color>
+    <color name="nafa_text">#303030</color>
+    <color name="nafa_hint">#8A8A8A</color>
+    <color name="nafa_border">#9A9A9A</color>
+    <color name="nafa_warning">#B84A2A</color>
+    <color name="nafa_warning_light">#FFF0EB</color>
+    <color name="nafa_yellow">#F2A900</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="nafa_green_deep">#00561C</color>
+    <color name="nafa_canvas">#F5F7F6</color>
+    <color name="nafa_line">#E6EAE8</color>
+    <color name="nafa_yellow_light">#FFF5DB</color>
+</resources>

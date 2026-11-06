@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/nafa_field" />
+    <corners android:radius="28dp" />
+</shape>

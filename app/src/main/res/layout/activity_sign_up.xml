@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white"
+    android:layoutDirection="rtl"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:paddingTop="27dp"
+        android:paddingBottom="8dp"
+        android:layoutDirection="rtl">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="إنشاء حساب جديد"
+                android:textColor="@color/nafa_text"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:layoutDirection="rtl" />
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="left|center_vertical"
+                android:background="@drawable/bg_back"
+                android:src="@drawable/ic_arrow_back_rtl"
+                android:contentDescription="رجوع"
+                android:padding="9dp"
+                android:scaleType="centerInside" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:gravity="center"
+            android:text="أدخل بياناتك للانضمام إلى مجتمع نفع"
+            android:textColor="@color/nafa_hint"
+            android:textSize="11sp"
+            android:layoutDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/bg_field"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_person_green"
+                android:contentDescription="@null" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="الاسم الكامل"
+                android:textSize="12sp"
+                android:textColor="@color/nafa_text"
+                android:textColorHint="@color/nafa_hint"
+                android:gravity="right|center_vertical"
+                android:layoutDirection="rtl"
+                android:inputType="textPersonName"
+                android:padding="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/bg_field"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_mail_green"
+                android:contentDescription="@null" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="البريد الإلكتروني"
+                android:textSize="12sp"
+                android:textColor="@color/nafa_text"
+                android:textColorHint="@color/nafa_hint"
+                android:gravity="right|center_vertical"
+                android:layoutDirection="rtl"
+                android:inputType="textEmailAddress"
+                android:padding="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/bg_field"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_phone_green"
+                android:contentDescription="@null" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="رقم الجوال"
+                android:textSize="12sp"
+                android:textColor="@color/nafa_text"
+                android:textColorHint="@color/nafa_hint"
+                android:gravity="right|center_vertical"
+                android:layoutDirection="rtl"
+                android:inputType="phone"
+                android:padding="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/bg_field"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_lock_green"
+                android:contentDescription="@null" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="كلمة المرور"
+                android:textSize="12sp"
+                android:textColor="@color/nafa_text"
+                android:textColorHint="@color/nafa_hint"
+                android:gravity="right|center_vertical"
+                android:layoutDirection="rtl"
+                android:inputType="textPassword"
+                android:padding="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/bg_field"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_location_green"
+                android:contentDescription="@null" />
+
+            <Spinner
+                android:id="@+id/spNeighborhood"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:spinnerMode="dropdown"
+                android:gravity="right|center_vertical"
+                android:layoutDirection="rtl"
+                android:padding="0dp" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_chevron_down"
+                android:contentDescription="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/termsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|right"
+            android:layoutDirection="rtl"
+            android:clickable="true"
+            android:focusable="true">
+
+            <CheckBox
+                android:id="@+id/cbTerms"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:button="@drawable/bg_checkbox"
+                android:padding="0dp"
+                android:gravity="center"
+                android:layoutDirection="ltr" />
+
+            <TextView
+                android:id="@+id/tvTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:gravity="right|center_vertical"
+                android:text="أوافق على الشروط والأحكام"
+                android:textColor="@color/nafa_hint"
+                android:textSize="11sp"
+                android:layoutDirection="rtl" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_button"
+            android:gravity="center"
+            android:text="إنشاء حساب"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:stateListAnimator="@null"
+            android:layoutDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لديك حساب بالفعل؟ "
+                android:textColor="@color/nafa_hint"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تسجيل الدخول"
+                android:textColor="@color/nafa_green"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
